@@ -4,7 +4,7 @@ Repo to analyze and extract meaningful insights from mobile application data, fo
 Steps to run the project into an EMR cluster
 1. Create an EMR cluster (Make sure to add rule into security groups to all spark-ui connections).
 2. Login to Primary node using SSH
-3. Create a file main.py
+3. Create an empty main.py python file.
 4. Copy the code from this repo's main.py code and paste it into Primary node's main.py file.
 5. Run command `spark_submit main.py `, here input_file and output_file's path can be given into command line arguments
 6. Wait for the spark process to complete
